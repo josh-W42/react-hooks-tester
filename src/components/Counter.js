@@ -11,17 +11,17 @@ const Counter = (props) => {
     setCount(count - 5);
   }
 
-  useEffect(() => {
-    console.log('I mounted or uptdated');
-  });
+  // useEffect(() => {
+  //   console.log('I mounted or uptdated');
+  // });
 
-  useEffect(() => {
-    console.log('I mounted');
-  }, []);
+  // useEffect(() => {
+  //   console.log('I mounted');
+  // }, []);
 
-  useEffect(() => {
-    console.log('count updated');
-  }, [count]);
+  // useEffect(() => {
+  //   console.log('count updated');
+  // }, [count]);
 
   return (
     <>
